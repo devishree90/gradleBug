@@ -1,0 +1,13 @@
+products:
+   app/resources/class1.java -> build/playBinary/classes/resources/class1.class
+   app/resources/prototype/class3.java -> build/playBinary/classes/resources/prototype/class3.class
+binary dependencies:
+   app/resources/class1.java -> /export/apps/jdk/JDK-1_8_0_121/jre/lib/rt.jar
+   app/resources/prototype/class3.java -> /export/apps/jdk/JDK-1_8_0_121/jre/lib/rt.jar
+source dependencies:
+   app/resources/class1.java -> app/resources/class1.java
+   app/resources/prototype/class3.java -> app/resources/prototype/class3.java
+external dependencies:
+class names:
+   app/resources/class1.java -> resources.class1
+   app/resources/prototype/class3.java -> resources.prototype.class3
